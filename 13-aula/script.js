@@ -142,3 +142,28 @@ function calculo(n1, n2){
 var final = calculo(3,5)
 
 console.log("A conta deu:", final)
+
+
+// EXERCÍCIO
+var idade1 = prompt("Idade 1: ")
+var idade2 = prompt("Idade 2: ")
+
+var valorFinal = 0
+// ingresso 1
+if(idade1 < 18){
+    valorFinal = valorFinal + 15
+}else if(idade1 < 60){
+    valorFinal = valorFinal + 30
+}else{
+    valorFinal = valorFinal + 20
+}
+// ingresso 2
+if(idade2 < 18){
+    valorFinal = valorFinal + 15
+}else if(idade2 < 60){
+    valorFinal = valorFinal + 30
+}else{
+    valorFinal = valorFinal + 20
+}
+
+console.log("Valor final: ", valorFinal)
